@@ -24,7 +24,7 @@ execute_process(COMMAND
 	WORKING_DIRECTORY ${BOOST_SOURCES_DIR}
 )
 
---stagedir=${BOOST_STAGE_DIR}
+# --stagedir=${BOOST_STAGE_DIR}
 
 project(playwithhttp)
 
